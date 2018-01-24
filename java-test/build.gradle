@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+dependencies {
+    // Dependencies for local unit tests
+    testImplementation 'junit:junit:' + rootProject.ext.junitVersion
+    testImplementation 'org.hamcrest:hamcrest-core:' + rootProject.ext.hamcrestVersion
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
